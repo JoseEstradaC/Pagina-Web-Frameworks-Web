@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Frameworks Web</title>
+
+  <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top pl-5" id="nav">
+    <img class="navbar-brand" src="./imagenes/logo.png" height="50em"></imagenes>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#hero">Hero</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#frameworks">Frameworks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#react">React</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#carrusel">Imágenes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aprende">Más</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="text-white text-center">
+    <div class="ajuste-brillo"></div>
+    <h1>FRAMEWORKS WEB</h1>
+  </section>
+
+  <!-- Que es un framework -->
+
+  <section id="frameworks" class="bg-light text-center pt-4 pb-4">
+    <h2 class="font-weight-bold ">¿Qué es un framework Web?</h2>
+    <p class="lead mb-0 pb-0 mb-0 ml-3 mr-3 ml-md-5 mr-md-5 text-justify">
+      Los frameworks web son un conjunto de herramientas, estilos y librerías dispuestas a través de una estructura o
+      esqueleto base, para el desarrollo de aplicaciones web más escalables y sencillas de mantener.
+      En esta página web vamos a hablar de los 3 frameworks modernos mas usados en la actulidad, todos tienen sus
+      similutudes y sus difencias.
+    </p>
+  </section>
+
+  <!-- Compartativa -->
+  <section id="compartativa" class="bg-light text-center pt-4 pb-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="mx-auto mb-5 mb-lg-0 ">
+            <img class="iconos mb-2" src="./imagenes/reactjs.png" alt="" srcset="">
+            <h3>ReactJS</h3>
+            <p class="lead mb-0 text-justify">Este es el framework web moderno mas usado actualmente (en occidente),
+              grandes
+              empresas lo usan, desde WhatsApp hasta Uber pasando por su creador
+              <strong href="#" data-toggle="tooltip"
+                title="Facebook es la empresa que se
+              encarga de mantener este framework. Esta fue quien lo desarrollo para crear la nueva interfaz de su
+              aplicación ya que con los frameworks antiguos era muy difícil mantener su red social, hay que destacar su continuo desarrollo, y su licencia de código abierto."
+                data-original-title="">Facebook</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="mx-auto mb-5 mb-lg-0 ">
+            <img class="iconos mb-2" src="./imagenes/vuejs.png" alt="" srcset="">
+            <h3>VUEJS</h3>
+            <p class="lead mb-0 text-justify">
+              Este framework es uno de los mas usados, el repositorio oficial de github
+              se situa en tercera posición respecto a la cantidad de "Likes" recividos dada su gran influencia en China
+              ya que el creador de esta es Chino. Gitlab o Nintendo son alguna de las empresas que usan este framework
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="mx-auto mb-5 mb-lg-0 ">
+            <img class="iconos mb-2" src="./imagenes/angular2.png" alt="" srcset="">
+            <h3>ANGULAR</h3>
+            <p class="lead mb-0 text-justify">
+              Angular es propiedad de google y portanto su popularidad es bastante alta,
+              este framework a diferencia del resto usa como lenguaje <strong href="#" data-toggle="tooltip"
+                title="TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases."
+                data-original-title="">TypeScript</strong>. Empresas como Paypal, Microsoft y por supuesto google lo
+              usan en sus apliaciones
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- React -->
+
+  <section id="react" class="bg-light text-center pt-4 pb-4">
+    <h2 class="font-weight-bold ">React</h2>
+    <p class="lead mb-0 pb-0 mb-0 ml-3 mr-3 ml-md-5 mr-md-5 text-justify">
+      A continuación vamos a hablar en más profundidad de un de los frameworks, en este caso React, este framework se
+      basa en crear componentes lo más reusable posible y poder manipularlos en tiempo real a través de su estado. Esto
+      quiere decir que fácilmente podremos modificar el HTML de nuestra página web, por tanto podemos crear una
+      aplicación web en una sola página de manera muy fácil. Esto lo consigue a través del lenguaje JSX y su virtual
+      DOM.
+    </p>
+
+    <!-- JSX y VirtualDOM -->
+    <div id="accordion">
+
+      <div class="card ml-md-5 mr-md-5 mr-sm-0 ml-sm-0">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              VirtualDOM
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body bg-light">
+            <p class="lead letraPequeña">
+              El DOM es la parte del navegador donde se renderiza el HTML, es decir donde se "incrustan" el HTML. Los
+              creadores de React pensaron una gran idea para poder cambiar los elementos del DOM sin tener que refrescar
+              todo
+              el DOM cada vez que detecte algún cambio. Es tan siempre como tener un DOM virtual, es decir un DOM que
+              nunca
+              se va a pintar, pero es una réplica del que estamos viendo en el navegador, con esto conseguimos que si
+              actualizamos cualquier contenido en el HTML, como por ejemplo cambios en la base de datos, nuestro DOM
+              virtual lo cambiara y ahora comparará su versión con el DOM del navegador y calculara los cambios
+              necesarios
+              para mostrar el nuevo contenido actualizando lo menos posible.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card ml-md-5 mr-md-5 mr-sm-0 ml-sm-0">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              JSX
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body bg-light">
+            <p class="lead letraPequeña">
+              El JSX es un lenguaje que usa react que parace HTML pero en realidad es JavaScript, con esto conseguimos
+              que
+              con el propio JavaScript poder editar el html. Vamos a hacer una prueba para ver que cuando exportamos una
+              pagina en React y detecta este lenguaje, JSX, nos va devolver JavaScript.
+
+
+
+            <div class="container-fluid p-0">
+              <div class="row no-gutters">
+
+                <img src="./imagenes/JSX.PNG" alt="" srcset="" class="col-lg-6 order-lg-2 pt-2 pb-2 p-md-2">
+                <img src="./imagenes/JSXCompilado.PNG" alt="" srcset="" class="col-lg-6 order-lg-2 pt-2 pb-2 p-md-2">
+              </div>
+            </div>
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <div id="carrusel" class="w-100 container">
+
+    <h1 class="p-5 text-center font-weight-bold">Algunas páginas que usan estas tecnologías</h1>
+
+    <div id="galeria" class="mx-auto">
+      <div id=" carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img class="d-block w-100" src="imagenes/PaginaReact.PNG" alt="Pagina React">
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption p-2 fondo-carrusel">
+              <h6>React</h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="view">
+              <img class="d-block w-100" src="imagenes/PaginaAngular.jpg" alt="Pagina Angular">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption fondo-carrusel p-2">
+              <h6>Angular</h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="view">
+              <img class="d-block w-100" src="imagenes/PaginaVue.PNG" alt="Pagina Vue">
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption fondo-carrusel p-2">
+              <h6>Vue</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Aprende y contacto -->
+
+  <section id="aprende" class="bg-light text-center pt-4 pb-4">
+    <h2 class="font-weight-bold ">¿Quieres aprender?</h2>
+    <p class="lead mb-0 pb-2 mb-0 ml-3 mr-3 ml-md-5 mr-md-5 text-center">
+      Para aprender esto y mas puedes estudiar en el IES Campanillas, siutado en el parque Tecnológico de Málaga
+    </p>
+    <div class="embed-responsive embed-responsive-16by9 container">
+      <iframe class="embed-responsive-item"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11395.239993154366!2d-4.538293808607819!3d36.73021823932707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6dccfba3e65a1f2!2sFP%20IES%20Campanillas%20PTA!5e0!3m2!1ses!2ses!4v1614795003080!5m2!1ses!2ses"
+        allowfullscreen></iframe>
+    </div>
+    <p class="lead mb-0 pb-2 pt-4 mb-0 ml-3 mr-3 ml-md-5 mr-md-5 text-center">
+      Puedes contactar para pedir mas información.
+    </p>
+    <button type="button" class="btn btn-primary text-center" data-toggle="modal"
+      data-target="#exampleModalLong">Contacta</button>
+  </section>
+
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Formulario de contacto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="Nombre y apellidos">Nombre y apellidos</label>
+              <input type="text" class="form-control" id="Nombre y apellidos" aria-describedby="Nombre y Apellidos"
+                placeholder="Nombre y apellidos">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Correo Electronico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Constraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword2">Repetir Constraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Contraseña">
+            </div>
+            <div class="form-group">
+              <label for="Postal">Direción Postal</label>
+              <input type="text" class="form-control" id="Postal" aria-describedby="Dirección Postal"
+                placeholder="dirección postal">
+            </div>
+            <div class="form-group">
+              <label for="Genero">Género</label>
+              <select class="custom-select mr-sm-2" id="Genero">
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Prefiero no responder</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="Telefono">Telefono</label>
+              <input type="text" class="form-control" id="Telefono" aria-describedby="Telefono"
+                placeholder="Teléfono...">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">política de privacidad y condiciones de uso.</label>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                leer
+              </button>
+
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A ex quas quibusdam recusandae repudiandae
+                  blanditiis, laborum accusamus ullam ea voluptate sequi voluptates delectus nulla laudantium veritatis
+                  tempore nostrum voluptatum deserunt illo error. Saepe eum consequatur consectetur ab, id quod. Aperiam
+                  facere harum fugiat quasi reiciendis eaque molestias eius repellendus explicabo tempore, corrupti
+                  mollitia ut cupiditate debitis nisi! Itaque ab quidem illo, id debitis assumenda adipisci corporis,
+                  ipsam suscipit facere dolor placeat quos corrupti dignissimos aperiam amet nihil quod labore autem
+                  cum. Error veniam dignissimos aliquam deleniti natus maiores consectetur voluptatum ab recusandae
+                  fugiat! At, in necessitatibus vitae tempore voluptatem ex similique assumenda a expedita aperiam
+                  consectetur itaque neque ab! Similique vel magni odio facilis doloremque officiis eaque nam cupiditate
+                  iure eum ipsum soluta voluptatum debitis sint eligendi, pariatur fugit vero, repudiandae labore facere
+                  ab asperiores? Sunt debitis aliquam reiciendis facilis maiores eos omnis voluptatum optio earum autem
+                  eius doloribus a veniam, molestiae magni quae at unde ea amet. Nam, maxime suscipit quod quisquam quo
+                  laborum. Voluptatem nulla impedit ratione consequatur, fugiat ullam commodi magni repellat officia.
+                  Dignissimos consequuntur, iste autem numquam ipsam, animi asperiores architecto consequatur laboriosam
+                  error odio eius repellendus, natus eveniet? Aliquid, nobis ad voluptate illum veritatis ipsa
+                  obcaecati. Alias, repellendus officia optio mollitia omnis saepe porro, odit molestias praesentium hic
+                  iste officiis deleniti error. Magni ipsa et eos ratione sapiente soluta deserunt commodi odit
+                  voluptates quia sed cumque quasi, a totam incidunt dicta id optio. Accusantium doloremque cumque illo
+                  qui tempora fugit aut natus voluptatibus, aperiam dolor inventore illum! Modi eos accusantium, rerum
+                  neque exercitationem nostrum ipsum, cumque harum aut illo blanditiis deserunt odit, alias sapiente
+                  nesciunt dolorum libero hic. Sint minima distinctio dolore possimus in, tempore laborum magni saepe!
+                  Mollitia, nemo! Eum minus at perferendis repudiandae? Fuga, molestiae esse. Ut doloremque hic placeat
+                  alias cupiditate, iste quo ullam voluptatum quis culpa aut molestias natus quisquam voluptatibus
+                  laboriosam repellat a. Ad ducimus asperiores suscipit obcaecati aliquam expedita nobis perspiciatis
+                  provident deleniti delectus illo sequi dolor doloribus quo nostrum, in ut quam temporibus reiciendis
+                  reprehenderit nisi beatae. Laborum omnis consequatur similique qui est debitis porro culpa quae sunt
+                  repudiandae, dolor officiis inventore corrupti temporibus. Ipsam nobis recusandae odit minima, eveniet
+                  sit eaque nihil repellendus, ad fugiat ullam velit delectus ipsa! Eius labore tempora optio voluptatum
+                  cumque dicta ut rem illo et quae, distinctio laborum ducimus magnam placeat, earum voluptatem
+                  reiciendis tenetur, praesentium assumenda repellat ea! Nobis, eos. Hic vitae qui maxime impedit! Qui
+                  ipsum sit illum consequuntur, soluta mollitia quas! Nulla facilis enim dolorem quod. Officia aperiam
+                  reprehenderit non in omnis dolor nostrum deserunt sit aliquam! Reprehenderit quisquam neque officia
+                  minus, veritatis cum fugiat velit iusto, provident temporibus ratione accusamus deserunt laboriosam
+                  cumque dolorem at pariatur dolores odio ducimus! Illum ad qui sint perferendis nihil dolorem
+                  exercitationem nobis, repellendus iste non earum ut molestias, eaque at dolor id, odio dolores
+                  corporis distinctio. Assumenda quidem, excepturi veritatis debitis dolor amet omnis voluptate autem,
+                  provident voluptatum doloribus optio ducimus corporis. Accusantium ipsa cum harum sint cumque
+                  voluptatem quae, facere labore quas repellendus! Ducimus veniam eos dicta reiciendis placeat.
+                  Consequuntur, sapiente facilis temporibus, impedit commodi accusantium eos sed iure dolorum, illum
+                  cumque blanditiis tempore neque placeat. Fugit ut numquam, nemo iusto dolorum doloremque reprehenderit
+                  eius veniam laudantium at velit doloribus quisquam explicabo. Recusandae temporibus voluptatibus iusto
+                  hic voluptatum eum officiis, magni sequi incidunt perferendis. Quae ad nesciunt distinctio atque id
+                  ipsa! Suscipit nihil nesciunt dicta magni repellendus repellat, porro doloribus iure, distinctio non
+                  quam corporis. Tempora nisi quis perspiciatis ipsum adipisci perferendis eaque tenetur eveniet! Ex
+                  dolores a tempore temporibus alias excepturi sunt non accusamus rerum possimus. Dolores deleniti
+                  exercitationem fugiat unde voluptatum voluptas repellendus quisquam animi aut excepturi eaque maxime
+                  dolore, aspernatur esse consequatur pariatur maiores est nostrum possimus nesciunt vero? Sed placeat
+                  eum consectetur expedita amet provident, ab impedit quo id quibusdam doloremque libero assumenda, quas
+                  at non possimus ipsa vero eius. At, earum! Suscipit aut doloremque ducimus distinctio itaque nulla,
+                  unde expedita explicabo natus eum dolorem. Incidunt repellendus deleniti blanditiis dolores et magnam
+                  nostrum aspernatur, ipsum ut perferendis totam nulla sit amet in, nihil omnis distinctio quisquam
+                  animi. Est harum qui, ut alias ducimus minima enim quasi totam, commodi aspernatur vero animi
+                  blanditiis? Ut ratione cum fugit soluta odio dicta quibusdam perferendis harum, eveniet deserunt natus
+                  tenetur eos exercitationem. Repudiandae nostrum accusamus eligendi a, fugit optio aut consectetur
+                  dolor error ex vero id beatae distinctio aspernatur dolorum. Mollitia voluptatibus rerum officia nam
+                  similique expedita asperiores cupiditate incidunt quaerat nesciunt voluptas fuga explicabo aspernatur
+                  sapiente, assumenda consequatur ullam, deleniti in soluta repudiandae esse corrupti ipsa ex
+                  voluptatum! Temporibus amet similique labore officiis ut optio vitae placeat repellendus corrupti
+                  ducimus asperiores ratione est, aspernatur aliquam? Facere ipsum temporibus molestiae commodi tempore
+                  inventore non repellendus vero. Quibusdam praesentium odit ipsum distinctio laboriosam consectetur
+                  similique tempora maiores eveniet dolorum saepe error mollitia facere esse inventore in, eius ex sed
+                  nemo veritatis nesciunt! Maxime rem earum veniam quae ducimus adipisci, eligendi voluptatibus eveniet
+                  ea et commodi placeat tenetur quisquam nam excepturi, perferendis ad architecto labore provident
+                  molestiae eaque qui facere neque hic? Sed ipsam nulla earum fuga! Ad, vitae libero eveniet voluptatum
+                  aliquam officia optio nam, dicta nisi provident soluta quasi. Doloribus mollitia possimus ratione
+                  suscipit sit aperiam nesciunt non quod eius earum voluptatibus ad architecto laudantium illum magni,
+                  aspernatur impedit harum iste animi laborum facere voluptas reprehenderit perspiciatis. Non porro, nam
+                  vitae repellat tempora eveniet quibusdam asperiores nobis quae repudiandae temporibus ad, est nesciunt
+                  veritatis unde necessitatibus a recusandae quasi! Esse excepturi voluptas unde tempore animi pariatur
+                  molestiae, nobis maiores, eius voluptatem quam aliquid nesciunt, rerum magnam impedit id corrupti
+                  placeat sint aperiam quas. Cum id in molestiae ad, itaque suscipit omnis atque voluptatum fugiat
+                  quidem impedit dolores culpa asperiores expedita! Animi vel nam saepe sed sit rerum pariatur deserunt
+                  distinctio harum beatae, et, nemo quas iste provident impedit unde iure porro aspernatur ad?
+                  Laboriosam iste fuga dignissimos pariatur, rerum blanditiis tenetur possimus sequi unde corrupti
+                  aspernatur accusantium facere ut dolorem? Voluptas ratione aperiam repellat facere autem eum magnam
+                  quisquam sit perferendis?
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-0 pb-4 col-lg-6 justify-content-center align-self-center">
+            Calle Frederick Terman, 3, 29590 Málaga <br>
+            secretaria@iescampanillas.com <br>
+            +34 952620947 <br>
+          </div>
+          <div class="col-0 pb-4 col-lg-6">
+            <div class="embed-responsive embed-responsive-16by9 container">
+              <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11395.239993154366!2d-4.538293808607819!3d36.73021823932707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6dccfba3e65a1f2!2sFP%20IES%20Campanillas%20PTA!5e0!3m2!1ses!2ses!4v1614795003080!5m2!1ses!2ses"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-a11y="true"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+    integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
